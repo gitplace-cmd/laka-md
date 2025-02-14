@@ -36,5 +36,5 @@ ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL
 ALWAYS_TYPING: process.env.ALWAYS_TYPING === undefined ? "false" : process.env.ALWAYS_TYPING,
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? 'https://wa.me/qr/23Q4H3UB24DPF1' : process.env.DELETEMSGSENDTO
 };
